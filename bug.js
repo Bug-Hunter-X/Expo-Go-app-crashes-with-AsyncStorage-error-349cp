@@ -1,0 +1,1 @@
+This bug occurs when using the Expo Go app to test an app that uses async storage. The app crashes with an error similar to this: `AsyncStorage: AsyncStorage is not available in this environment`. This is because AsyncStorage is not supported by the Expo Go app directly and the Expo client needs to be set to use the correct storage method.
